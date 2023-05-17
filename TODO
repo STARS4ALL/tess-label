@@ -1,0 +1,39 @@
+SHORT TERM
+==========
+Esta es la página del formulario bajo http://192.168.4.1/settings
+
+<!DOCTYPE html>
+<html>
+  <head><meta name="viewport" content="width=device-width,user-scalable=0"><title>Wi-Fi TESS Settings</title></head>
+  <body>
+    <h2>TESS-W STARS4ALL<br>Wi-Fi & TESS Settings</h2>
+    <p>Please selecting your SSID and enter password.</p>
+    <form method="get" action="setap">
+      <label>SSID: </label>
+      <select name="ssid">
+        <option value="MiFibra-09E0">MiFibra-09E0</option>
+        <option value="iPhone 11 Pro Max">iPhone 11 Pro Max</option>
+        <option value="vodafoneAAK0HE">vodafoneAAK0HE</option>
+        <option value="MOVISTAR_DFC9">MOVISTAR_DFC9</option>
+        <option value="Livebox6-F533">Livebox6-F533</option>
+        <option value="MiFibra-4DA0">MiFibra-4DA0</option>
+        <option value="MOVISTAR_29A8">MOVISTAR_29A8</option>
+        <option value="vodafoneA871">vodafoneA871</option>
+        <option value="MOVISTAR_82FB">MOVISTAR_82FB</option>
+        <option value="NEMINIP">NEMINIP</option>
+        <option value="vodafoneB908">vodafoneB908</option>
+        <option value="vodafonePRUEBA">vodafonePRUEBA</option>
+        <option value="DIGIFIBRA-574z">DIGIFIBRA-574z</option>
+        <option value="devolo-0dd">devolo-0dd</option>
+      </select> 
+      <br>Password: <input name="pass" length=64 type="password">
+      <br>Name: <input name="tname" length=32 type="text">
+      <br>CI: <input name="cons" length=8 type="text">
+      <br>Offset: <input name="offmhz" length=8 type="text">
+      <br>Seg: <input name="Envio" length=8 type="text">
+      <br>Tel.Port: <input name="Port" length=8 type="text">
+      <br>Broker: <input name="broker" length=8 type="text">
+      <br><input type="submit">
+    </form>
+  </body>
+</html>
